@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E22C9A028288EC200B112C0 /* GardenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22C99F28288EC200B112C0 /* GardenViewController.swift */; };
+		6E22C9A22829E0AD00B112C0 /* Level1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22C9A12829E0AD00B112C0 /* Level1ViewController.swift */; };
+		6E22C9A42829E0C900B112C0 /* Level2.ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22C9A32829E0C900B112C0 /* Level2.ViewController.swift */; };
+		6E22C9A62829E0E100B112C0 /* Level3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22C9A52829E0E100B112C0 /* Level3ViewController.swift */; };
+		6E321733283345A900189236 /* Plants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E321732283345A900189236 /* Plants.swift */; };
+		6E4CEE712832D321001DA215 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CEE702832D321001DA215 /* Colors.swift */; };
+		6E9BAE8128402F9D00379A95 /* Chicle-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E9BAE8028402F9D00379A95 /* Chicle-Regular.ttf */; };
+		6E9BAE88284035D100379A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9BAE87284035D100379A95 /* Main.storyboard */; };
+		6EB24445282759430085E682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB24444282759430085E682 /* AppDelegate.swift */; };
+		6EB24447282759430085E682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB24446282759430085E682 /* SceneDelegate.swift */; };
+		6EB24449282759430085E682 /* HerbariumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB24448282759430085E682 /* HerbariumViewController.swift */; };
+		6EB2444E282759430085E682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB2444D282759430085E682 /* Assets.xcassets */; };
+		6EB24451282759430085E682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB2444F282759430085E682 /* LaunchScreen.storyboard */; };
+		6EB24459282874B60085E682 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB24458282874B60085E682 /* Model.swift */; };
+		6EEE4EC228302FE9003245A9 /* LevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE4EC128302FE9003245A9 /* LevelTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E22C99F28288EC200B112C0 /* GardenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenViewController.swift; sourceTree = "<group>"; };
+		6E22C9A12829E0AD00B112C0 /* Level1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1ViewController.swift; sourceTree = "<group>"; };
+		6E22C9A32829E0C900B112C0 /* Level2.ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2.ViewController.swift; sourceTree = "<group>"; };
+		6E22C9A52829E0E100B112C0 /* Level3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3ViewController.swift; sourceTree = "<group>"; };
+		6E321732283345A900189236 /* Plants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plants.swift; sourceTree = "<group>"; };
+		6E4CEE702832D321001DA215 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6E9BAE8028402F9D00379A95 /* Chicle-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Chicle-Regular.ttf"; path = "../../../../Desktop/Chicle/Chicle-Regular.ttf"; sourceTree = "<group>"; };
+		6E9BAE87284035D100379A95 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../Desktop/Main.storyboard; sourceTree = "<group>"; };
+		6EB24441282759430085E682 /* Jardim de Luke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jardim de Luke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB24444282759430085E682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EB24446282759430085E682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EB24448282759430085E682 /* HerbariumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbariumViewController.swift; sourceTree = "<group>"; };
+		6EB2444D282759430085E682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB24450282759430085E682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EB24452282759430085E682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB24458282874B60085E682 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6EEE4EC128302FE9003245A9 /* LevelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB2443E282759430085E682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E22C9A92829E12400B112C0 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				6E22C9A12829E0AD00B112C0 /* Level1ViewController.swift */,
+				6E22C9A32829E0C900B112C0 /* Level2.ViewController.swift */,
+				6E22C9A52829E0E100B112C0 /* Level3ViewController.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		6E321734283345BF00189236 /* Plants ans models */ = {
+			isa = PBXGroup;
+			children = (
+				6EB24458282874B60085E682 /* Model.swift */,
+				6E321732283345A900189236 /* Plants.swift */,
+			);
+			path = "Plants ans models";
+			sourceTree = "<group>";
+		};
+		6E9BAE8228402FA700379A95 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6E9BAE8028402F9D00379A95 /* Chicle-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		6EB24438282759430085E682 = {
+			isa = PBXGroup;
+			children = (
+				6EB24443282759430085E682 /* Jardim de Luke */,
+				6EB24442282759430085E682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB24442282759430085E682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB24441282759430085E682 /* Jardim de Luke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB24443282759430085E682 /* Jardim de Luke */ = {
+			isa = PBXGroup;
+			children = (
+				6EF8A0A3282C2C4000B7CF9E /* Delegate */,
+				6EF507AA28315FA100D19AB5 /* Herbarium */,
+				6EF8A0A2282C2BA600B7CF9E /* Garden */,
+				6E321734283345BF00189236 /* Plants ans models */,
+				6E22C9A92829E12400B112C0 /* Levels */,
+				6E9BAE8228402FA700379A95 /* Fonts */,
+				6EF8A0A4282C8C4200B7CF9E /* Launch, main, assets */,
+			);
+			path = "Jardim de Luke";
+			sourceTree = "<group>";
+		};
+		6EF507AA28315FA100D19AB5 /* Herbarium */ = {
+			isa = PBXGroup;
+			children = (
+				6EB24448282759430085E682 /* HerbariumViewController.swift */,
+				6EEE4EC128302FE9003245A9 /* LevelTableViewCell.swift */,
+			);
+			path = Herbarium;
+			sourceTree = "<group>";
+		};
+		6EF8A0A2282C2BA600B7CF9E /* Garden */ = {
+			isa = PBXGroup;
+			children = (
+				6E22C99F28288EC200B112C0 /* GardenViewController.swift */,
+			);
+			path = Garden;
+			sourceTree = "<group>";
+		};
+		6EF8A0A3282C2C4000B7CF9E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6EB24444282759430085E682 /* AppDelegate.swift */,
+				6EB24446282759430085E682 /* SceneDelegate.swift */,
+				6E4CEE702832D321001DA215 /* Colors.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		6EF8A0A4282C8C4200B7CF9E /* Launch, main, assets */ = {
+			isa = PBXGroup;
+			children = (
+				6EB2444F282759430085E682 /* LaunchScreen.storyboard */,
+				6EB2444D282759430085E682 /* Assets.xcassets */,
+				6EB24452282759430085E682 /* Info.plist */,
+				6E9BAE87284035D100379A95 /* Main.storyboard */,
+			);
+			name = "Launch, main, assets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB24440282759430085E682 /* Jardim de Luke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB24455282759430085E682 /* Build configuration list for PBXNativeTarget "Jardim de Luke" */;
+			buildPhases = (
+				6EB2443D282759430085E682 /* Sources */,
+				6EB2443E282759430085E682 /* Frameworks */,
+				6EB2443F282759430085E682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jardim de Luke";
+			productName = "Jardim de Luke";
+			productReference = 6EB24441282759430085E682 /* Jardim de Luke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB24439282759430085E682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6EB24440282759430085E682 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6EB2443C282759430085E682 /* Build configuration list for PBXProject "Jardim de Luke" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EB24438282759430085E682;
+			productRefGroup = 6EB24442282759430085E682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB24440282759430085E682 /* Jardim de Luke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB2443F282759430085E682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9BAE8128402F9D00379A95 /* Chicle-Regular.ttf in Resources */,
+				6EB24451282759430085E682 /* LaunchScreen.storyboard in Resources */,
+				6EB2444E282759430085E682 /* Assets.xcassets in Resources */,
+				6E9BAE88284035D100379A95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB2443D282759430085E682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E22C9A22829E0AD00B112C0 /* Level1ViewController.swift in Sources */,
+				6E4CEE712832D321001DA215 /* Colors.swift in Sources */,
+				6E22C9A028288EC200B112C0 /* GardenViewController.swift in Sources */,
+				6E22C9A62829E0E100B112C0 /* Level3ViewController.swift in Sources */,
+				6E321733283345A900189236 /* Plants.swift in Sources */,
+				6EB24449282759430085E682 /* HerbariumViewController.swift in Sources */,
+				6EB24445282759430085E682 /* AppDelegate.swift in Sources */,
+				6EEE4EC228302FE9003245A9 /* LevelTableViewCell.swift in Sources */,
+				6EB24447282759430085E682 /* SceneDelegate.swift in Sources */,
+				6E22C9A42829E0C900B112C0 /* Level2.ViewController.swift in Sources */,
+				6EB24459282874B60085E682 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EB2444F282759430085E682 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB24450282759430085E682 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EB24453282759430085E682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EB24454282759430085E682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB24456282759430085E682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 275GWT29UT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jardim de Luke/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy.egln.Jardim-de-Luke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EB24457282759430085E682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 275GWT29UT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jardim de Luke/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy.egln.Jardim-de-Luke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB2443C282759430085E682 /* Build configuration list for PBXProject "Jardim de Luke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB24453282759430085E682 /* Debug */,
+				6EB24454282759430085E682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB24455282759430085E682 /* Build configuration list for PBXNativeTarget "Jardim de Luke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB24456282759430085E682 /* Debug */,
+				6EB24457282759430085E682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB24439282759430085E682 /* Project object */;
+}
